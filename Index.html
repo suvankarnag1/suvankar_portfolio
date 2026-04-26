@@ -7,44 +7,95 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation -->
   <header>
-    <nav>
-      <h1>Suvankar Nag</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
+    <nav class="navbar">
+      <div class="logo">Suvankar Nag</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="experience.html">Experience</a></li>
         <li><a href="projects.html">Projects</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
-    <h2>Azure Data Engineer</h2>
-    <p>4+ years of experience designing and implementing scalable data solutions with Azure Data Factory, Databricks, PySpark, and SQL.</p>
-    <a href="experience.html" class="btn">View My Work</a>
+    <div class="hero-content">
+      <h1>Azure Data Engineer</h1>
+      <p>Specialized in building scalable data pipelines and cloud solutions with Azure Data Factory, Databricks, and PySpark.</p>
+      <a href="experience.html" class="btn-primary">Explore My Work</a>
+    </div>
   </section>
 
+  <!-- About Section -->
   <section class="about">
     <h2>About Me</h2>
-    <p>I am a Data Engineer based in Bangalore, India. Skilled in building robust ETL pipelines, cloud migration, and advanced analytics solutions.</p>
-    <ul>
-      <li>Email: suvankarnag1993@outlook.com</li>
-      <li>Phone: +91 9353218978</li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/suvankarnag2020">linkedin.com/in/suvankarnag2020</a></li>
-    </ul>
+    <p>
+      I am Suvankar Nag, a Data Engineer with over 4 years of experience in designing and implementing enterprise-grade data solutions on the Azure platform. 
+      My expertise spans Azure Data Factory, Databricks, PySpark, and SQL, enabling me to build scalable data pipelines and deliver analytics-ready datasets 
+      that empower businesses to make data-driven decisions.
+    </p>
+    <p>
+      Throughout my career, I have successfully led cloud migration initiatives, developed robust ETL/ELT workflows, and collaborated with cross-functional teams 
+      to deliver secure, efficient, and traceable data solutions. I am passionate about transforming raw data into actionable insights and continuously 
+      improving architectures to align with evolving industry standards.
+    </p>
+    <p>
+      Based in Bangalore, India, I bring a strong foundation in computer science and a proven track record of leveraging modern cloud technologies to solve 
+      complex data challenges. My goal is to contribute to innovative projects that drive organizational growth and efficiency.
+    </p>
   </section>
+</br>
+<section class="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-grid">
+    <div class="cert-item">
+      <h3>Azure Data Fundamentals (DP-900)</h3>
+      <p>Microsoft certification validating foundational knowledge of core data concepts and Azure data services.</p>
+    </div>
+    <div class="cert-item">
+      <h3>Databricks Fundamentals</h3>
+      <p>Credential demonstrating proficiency in Databricks platform for scalable data engineering and analytics.</p>
+    </div>
+    <div class="cert-item">
+      <h3>Python 101 for Data Science (PY0101EN)</h3>
+      <p>IBM certification covering Python basics and its application in data science workflows.</p>
+    </div>
+    <div class="cert-item">
+      <h3>Spark Fundamentals I (BD0211EN)</h3>
+      <p>Credential showcasing knowledge of Apache Spark architecture and data processing techniques.</p>
+    </div>
+    <div class="cert-item">
+      <h3>Spark Fundamentals II (BD0212EN)</h3>
+      <p>Advanced Spark certification focusing on optimization, transformations, and large-scale data handling.</p>
+    </div>
+  </div>
+</section>
 
+  <!-- Contact Section -->
   <section class="contact">
-    <h2>Contact Me</h2>
+    <h2>Get In Touch</h2>
     <form>
       <input type="text" placeholder="Your Name" required>
       <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-secondary">Send Message</button>
     </form>
   </section>
 
+  <!-- Footer -->
   <footer>
+    <div class="footer-container">
+      <p><strong>Email:</strong> suvankarnag1993@outlook.com</p>
+      <p><strong>Phone:</strong> +91 8250266706</p>
+      <p><strong>Location:</strong> Bangalore, India</p>
+      <p><strong>LinkedIn:</strong> 
+        <a href="https://linkedin.com/in/suvankarnag2020" target="_blank">
+          linkedin.com/in/suvankarnag2020
+        </a>
+      </p>
+    </div>
     <p>© 2026 Suvankar Nag | Data Engineer</p>
   </footer>
 </body>
