@@ -1,16 +1,52 @@
-/* style.css */
 body {
-    background: linear-gradient(135deg, #1a1a1a 0%, #ffffff 100%);
-    color: #333;
-    min-height: 100vh;
-    font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
 }
 
-.navbar { background-color: #1a1a1a !important; }
-.navbar-brand, .nav-link { color: #fff !important; }
+header {
+  background: #1f3c88;
+  color: white;
+  padding: 1rem;
+}
 
-.card {
-    background: rgba(255, 255, 255, 0.9);
-    border: none;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem;
+  background: #e6ecf5;
+}
+
+section {
+  padding: 2rem;
+}
+
+.job, .projects ul, .certificates ul {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background: #1f3c88;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background: #1f3c88;
+  color: white;
+  padding: 1rem;
 }
